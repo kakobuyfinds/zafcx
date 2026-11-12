@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>GTBuy spreadsheet | Sneakers, taglie e spedizione in Italia</title>
+  <meta name="description" content="Guida italiana al GTBuy spreadsheet: esplora 10 categorie CAFANS, confronta le taglie in centimetri, leggi le foto QC e stima il costo totale.">
+  <meta name="theme-color" content="#172a45">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+  <meta property="og:title" content="GTBuy spreadsheet | Sneakers, taglie e spedizione in Italia">
+  <meta property="og:description" content="Categorie CAFANS, misure da confrontare, foto di controllo qualità e costi di spedizione.">
+  <style>
+    :root { color-scheme: light; --paper: #f3f5f7; --ink: #172a45; --muted: #465873; --line: #cbd5e0; --lime: #e4fa8f; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.55 system-ui, sans-serif; }
+    a { color: inherit; text-underline-offset: .2em; }
+    :focus-visible { outline: 3px solid #176cb2; outline-offset: 4px; }
+    .wrap { width: min(74rem, calc(100% - 2rem)); margin-inline: auto; }
+    header { background: var(--ink); color: white; }
+    header .wrap { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding-block: .85rem; }
+    .brand { font-weight: 850; letter-spacing: .12em; }
+    h1, h2, h3, p, figure { margin: 0; }
+    h1, h2, h3 { line-height: 1.08; }
+    h1 { font-size: clamp(2.45rem, 7vw, 6rem); letter-spacing: -.075em; overflow-wrap: anywhere; }
+    h2 { font-size: clamp(1.65rem, 3vw, 2.7rem); letter-spacing: -.04em; margin-bottom: .9rem; }
+    h3 { font-size: 1.2rem; }
+    p + p, h3 + p { margin-top: .6rem; }
+    .hero { display: grid; grid-template-columns: 1.2fr 1fr; gap: 1.5rem; align-items: center; padding-block: 1.4rem; }
+    .hero p { max-width: 51ch; margin-top: .85rem; color: var(--muted); }
+    .hero figure { background: var(--lime); padding: .75rem; border-radius: .75rem; }
+    img { display: block; width: 100%; height: auto; }
+    .hero img { aspect-ratio: 2 / 1; object-fit: contain; }
+    figcaption { padding: .55rem .6rem .2rem; font-size: .88rem; }
+    .categories { border-block: 1px solid var(--line); padding-block: 1.1rem; }
+    .categories ul, .gallery, .guides { display: grid; gap: .7rem; padding: 0; margin: 0; list-style: none; }
+    .categories ul { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+    .categories a { display: flex; align-items: center; min-height: 3.2rem; padding: .55rem .7rem; background: white; border: 1px solid var(--line); border-radius: .45rem; font-weight: 720; }
+    .categories a:hover, .cta:hover { background: var(--lime); }
+    .section { margin-block: clamp(2rem, 5vw, 4rem); }
+    .gallery { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .gallery figure, article { background: white; border: 1px solid var(--line); border-radius: .65rem; }
+    .gallery figure { overflow: hidden; }
+    .gallery img { aspect-ratio: 1; object-fit: contain; background: #f9fafb; }
+    .note { color: var(--muted); margin-block: .5rem 1rem; }
+    .guides { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    article { padding: 1rem; }
+    details { padding: .85rem 0; border-top: 1px solid var(--line); }
+    summary { font-weight: 750; cursor: pointer; }
+    details p { margin: .45rem 0 0 1.2rem; max-width: 68ch; }
+    footer { border-top: 1px solid var(--line); padding-block: 1.2rem; }
+    .cta { display: inline-block; padding: .6rem .8rem; border: 1px solid var(--line); border-radius: .45rem; font-weight: 750; }
+    @media (max-width: 50rem) {
+      .categories ul { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .gallery { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .guides { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 37rem) {
+      .hero { grid-template-columns: 1fr; gap: .8rem; }
+      .categories ul { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+  </style>
+  <!-- La prima pagina di Google non era accessibile. I temi sono stati selezionati consultando dieci pagine reperite con la stessa query nella ricerca web. -->
+  <!-- Parole chiave secondarie: guida GTBuy in italiano, catalogo sneaker e streetwear, foto QC, guida alle taglie, spedizione in Italia. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebPage",
+        "@id": "#guida",
+        "inLanguage": "it",
+        "name": "GTBuy spreadsheet | Sneakers, taglie e spedizione in Italia",
+        "description": "Guida italiana al GTBuy spreadsheet: esplora 10 categorie CAFANS, confronta le taglie in centimetri, leggi le foto QC e stima il costo totale.",
+        "mainEntity": { "@id": "#faq" }
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "#faq",
+        "inLanguage": "it",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Che cos’è un GTBuy spreadsheet?",
+            "acceptedAnswer": { "@type": "Answer", "text": "È un elenco di prodotti organizzato per categoria, utile per salvare link e confrontare modelli. Qui le categorie aprono il catalogo CAFANS." }
+          },
+          {
+            "@type": "Question",
+            "name": "Le foto QC confermano l’autenticità?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Le foto QC mostrano dettagli visibili, come etichette, cuciture e finiture. Per verificare l’autenticità servono una provenienza documentata o una valutazione qualificata." }
+          },
+          {
+            "@type": "Question",
+            "name": "Come scelgo la taglia di una sneaker?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Misura entrambi i piedi in centimetri e usa il valore maggiore. Segui la tabella del modello e verifica se indica la lunghezza del piede o quella della soletta." }
+          },
+          {
+            "@type": "Question",
+            "name": "Come stimo il costo di spedizione in Italia?",
+            "acceptedAnswer": { "@type": "Answer", "text": "Usa il preventivo per la destinazione e le dimensioni del pacco. Controlla il peso fatturabile, le commissioni e quali imposte o spese di sdoganamento sono già incluse." }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/zafcx/">
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="https://www.cafans.com">CAFANS</a>
+      <a href="https://www.cafans.com">Apri il catalogo</a>
+    </div>
+  </header>
+  <main class="wrap" id="guida">
+    <section class="hero" aria-labelledby="titolo">
+      <div>
+        <h1 id="titolo">GTBuy spreadsheet</h1>
+        <p>Parti dalla categoria che ti interessa, confronta le misure e salva i link dei modelli che vuoi ritrovare. Questa guida in italiano raccoglie i controlli utili per scegliere sneakers, abbigliamento streetwear e accessori e stimare il costo finale in euro.</p>
+      </div>
+      <figure>
+        <img src="https://www.courtsidesneakers.com/cdn/shop/products/315122-111-PHSRH000-750.png?v=1589453003&amp;width=640" width="640" height="320" fetchpriority="high" loading="eager" alt="Vista laterale di una sneaker Nike Air Force 1 bianca">
+        <figcaption>Nike Air Force 1 · Profilo e suola</figcaption>
+      </figure>
+    </section>
+
+    <nav class="categories" aria-labelledby="categorie">
+      <h2 id="categorie">Esplora le categorie CAFANS</h2>
+      <ul>
+        <li><a href="https://cafans.com/category-911-Shoes.html">Scarpe</a></li>
+        <li><a href="https://cafans.com/category-912-Hoodies%2FSweaters.html">Felpe e maglioni</a></li>
+        <li><a href="https://cafans.com/category-913-T-Shirts.html">T-shirt</a></li>
+        <li><a href="https://cafans.com/category-914-Jackets.html">Giacche</a></li>
+        <li><a href="https://cafans.com/category-915-Pants%2FShorts.html">Pantaloni e shorts</a></li>
+        <li><a href="https://cafans.com/category-916-Headwear.html">Cappelli</a></li>
+        <li><a href="https://cafans.com/category-917-Sets.html">Completi</a></li>
+        <li><a href="https://cafans.com/category-918-underwear%2Funderpants.html">Intimo</a></li>
+        <li><a href="https://cafans.com/category-919-Jersey.html">Maglie sportive</a></li>
+        <li><a href="https://cafans.com/category-920-Accessories.html">Accessori</a></li>
+      </ul>
+    </nav>
+
+    <section class="section" aria-labelledby="dettagli">
+      <h2 id="dettagli">I dettagli da confrontare</h2>
+      <p class="note">Le immagini illustrano modelli e finiture. La disponibilità si verifica nelle singole schede del catalogo.</p>
+      <div class="gallery">
+        <figure>
+          <img src="https://fr.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-surchemise-en-denim-brode-monogram--HVA07WY38650_PM2_Front%20view.png?hei=400&amp;wid=400" width="400" height="400" loading="lazy" decoding="async" alt="Sovracamicia Louis Vuitton in denim blu con ricami Monogram">
+          <figcaption>Louis Vuitton · Ricami e bottoni</figcaption>
+        </figure>
+        <figure>
+          <img src="https://www.thedoublef.com/cdn/shop/files/4817743HC65_S_GUC-2140.a.jpg?v=1771536782&amp;width=400" width="400" height="400" loading="lazy" decoding="async" alt="Cappellino Gucci beige in tela con motivo GG e visiera curva">
+          <figcaption>Gucci · Tela e visiera</figcaption>
+        </figure>
+        <figure>
+          <img src="https://assets.christiandior.com/is/image/diorprod/N0717CDLCYD301_E01?%24default_GHC%24=&amp;bfc=on&amp;crop=553%2C165%2C870%2C1391&amp;qlt=80&amp;wid=400" width="400" height="400" loading="lazy" decoding="async" alt="Collana Dior Clair D Lune color oro con iniziali CD e cristalli">
+          <figcaption>Dior · Catena e cristalli</figcaption>
+        </figure>
+        <figure>
+          <img src="https://www.oliverjewellery.ca/cdn/shop/files/Hermes-Palladium-Plated-Orange-Enamel-Clic-H-Bracelet-w-Box_f80dab0b.jpg?v=1744110722&amp;width=400" width="400" height="400" loading="lazy" decoding="async" alt="Bracciale rigido Hermès Clic H in smalto arancione con chiusura a H">
+          <figcaption>Hermès · Smalto e chiusura</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="acquisto">
+      <h2 id="acquisto">Prima di ordinare</h2>
+      <div class="guides">
+        <article>
+          <h3>Taglie e vestibilità</h3>
+          <p>Per confrontare le taglie delle sneakers, misura il piede in centimetri e leggi la tabella del singolo modello. Se confronti la lunghezza della soletta, prendi come riferimento una scarpa che ti calza bene.</p>
+          <p>Per una felpa oversize, confronta larghezza del torace e lunghezza della manica con un capo steso in piano. Per pantaloni e shorts annota girovita e lunghezza del cavallo. Per cappelli e bracciali controlla la circonferenza della testa o del polso.</p>
+        </article>
+        <article>
+          <h3>Foto QC e schede prodotto</h3>
+          <p>Prima di salvare un link prodotto, controlla che si apra ancora e annota codice modello, colore, taglia e materiali. Se trovi più varianti, salva anche la foto della variante scelta.</p>
+          <p>Nelle foto di controllo qualità, confronta le cuciture delle scarpe, il profilo della suola e l’etichetta della taglia. Per una giacca chiedi un dettaglio della cerniera. Per una collana verifica lunghezza della catena, chiusura e finitura alla luce naturale.</p>
+        </article>
+        <article>
+          <h3>Spedizione in Italia e costo in euro</h3>
+          <p>Quando confronti due preventivi, usa la stessa destinazione e le stesse dimensioni del pacco. Controlla se il corriere calcola la tariffa sul peso reale o sul peso volumetrico.</p>
+          <p>Somma prezzo del prodotto, eventuale spedizione interna, trasporto internazionale e commissioni. Verifica cosa include il preventivo, in particolare IVA e spese di sdoganamento, e considera il cambio applicato se il pagamento è in un’altra valuta.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="faq" aria-labelledby="domande">
+      <h2 id="domande">Domande frequenti</h2>
+      <details open>
+        <summary>Che cos’è un GTBuy spreadsheet?</summary>
+        <p>È un elenco di prodotti organizzato per categoria, utile per salvare link e confrontare modelli. Qui le categorie aprono il catalogo CAFANS.</p>
+      </details>
+      <details>
+        <summary>Le foto QC confermano l’autenticità?</summary>
+        <p>Le foto QC mostrano dettagli visibili, come etichette, cuciture e finiture. Per verificare l’autenticità servono una provenienza documentata o una valutazione qualificata.</p>
+      </details>
+      <details>
+        <summary>Come scelgo la taglia di una sneaker?</summary>
+        <p>Misura entrambi i piedi in centimetri e usa il valore maggiore. Segui la tabella del modello e verifica se indica la lunghezza del piede o quella della soletta.</p>
+      </details>
+      <details>
+        <summary>Come stimo il costo di spedizione in Italia?</summary>
+        <p>Usa il preventivo per la destinazione e le dimensioni del pacco. Controlla il peso fatturabile, le commissioni e quali imposte o spese di sdoganamento sono già incluse.</p>
+      </details>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <a class="cta" href="https://www.cafans.com">Sfoglia il catalogo CAFANS</a>
+      <p class="note">Guida editoriale indipendente da GTBuy e dai marchi illustrati.</p>
+    </div>
+  </footer>
+</body>
+</html>
